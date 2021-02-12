@@ -1,0 +1,6 @@
+Code:
+
+export FLASK_ENV=development
+flask run
+
+Just refresh to see changes
