@@ -1,0 +1,26 @@
+1. Use Sublime Text and I-Term to code. 
+2. Create 'web server' folder on desktop to store 3 files (style.css, index.html and script.js)
+3. Type 'html' on index.html file and press tab key to have the file filled with html base code.
+
+4. index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">       # tag css files 
+</head>
+<body>
+	<h1>I am learning how to build my own website!</h1>            # java script code in body 
+</body>
+</html>
+
+5. style.css
+
+body{
+	background-color: yellow
+}
+
+6. script.js
+
+use 'console log' --- like print in python --- result show in console not browser
