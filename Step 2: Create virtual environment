@@ -1,5 +1,8 @@
-In I-term, type the following to create a virtual environemnt
+1. In I-term, type the following to create a virtual environemnt
 
 -------> (base) hafizah@Hafizahs-iMac Desktop % python -m venv web\ server/
 
-This will make web server website a virtual environment.
+2. This will make web server website a virtual environment.
+
+3. Inside web server folder include these folders: bin, include, lib and this file: pyvenv.cfg
+
