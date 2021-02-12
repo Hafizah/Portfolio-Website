@@ -1,3 +1,6 @@
 pip install Flask
 
 pip install --upgrade pip     # only if required
+
+
+## Flask in used to build server for the website. Alternative Django. However, Flask is better because its mini version is easier to use.
