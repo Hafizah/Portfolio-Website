@@ -1,0 +1,5 @@
+In I-term, type the following to create a virtual environemnt
+
+-------> (base) hafizah@Hafizahs-iMac Desktop % python -m venv web\ server/
+
+This will make web server website a virtual environment.
