@@ -1,0 +1,5 @@
+1. Type this with directory in Desktop
+. web\ server/bin/activate
+
+2. Result
+(web server) (base) hafizah@Hafizahs-iMac Desktop % pip install Flask
