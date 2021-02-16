@@ -1,0 +1,19 @@
+Google for free ico images
+Try icon-icon.com
+Download as .ico
+
+Google "adding a favicon using flask"
+
+Add this line into index.html file, under <link> tag.
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+Change filename to the 'icon_name.ico'
+This image should be in your web server folder - in the static folder.
+
+---------------------------------------------------------------------------------
+{{4+5}} in the body of index.html will give 9 in the browswer.
+Flask looks at curly brackets as Python expression.
+
+url_for function grabs favicon icon from the static folder.
+
+Jinja is a templating language to do above.
