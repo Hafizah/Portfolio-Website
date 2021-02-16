@@ -1,0 +1,23 @@
+___________Render Template_____________
+Function that connect  html files to derver.py
+
+Create a folder named "templates". Place html files in there. 
+
+Codes to run render template______
+@app.route('/')
+def hello_world():
+  return render_template(index.html)
+
+
+
+
+___________Static File_____________
+Files that never gonna change. They are static. 
+
+Create a folder named "static". Place css anf javascripr files in there.
+
+Make sure the following are correct in the server.py file. 
+-- <link> ----> href= static/style.css
+-- <script> ----> src= static/script.js
+The files above must be referenced correctly since we changed the position of the files.
+
