@@ -1,0 +1,17 @@
+mashup-template.com -- download astronaut portfolio template
+
+Delete certain files in the "univers" folder
+-- sample folder
+-- .gz (compressed files)
+-- .map files which help with debugging
+
+Keep 
+-- asset folder  - contain images
+-- all html pages
+-- .css 
+-- .js
+
+Move .css, .js and asset folder to static
+Move .html pages to template folder 
+
+
