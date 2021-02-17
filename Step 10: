@@ -6,3 +6,8 @@ Add /static
 
 -- <link rel="apple-touch-icon" sizes="180x180" href=".static/assets/apple-icon-180x180.png">
 
+Run these
+export FLASK_APP=server.py
+python -m flask run
+
+Should show some sort of astraunaut website.
