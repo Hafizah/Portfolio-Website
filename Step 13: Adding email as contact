@@ -1,3 +1,6 @@
+##### Did not finish ---> Lesson 270 must continue 
+
+
 Go to : Accesing request data on quick start on Flask webpage
 Link:   https://flask.palletsprojects.com/en/1.1.x/quickstart/#accessing-request-data
 
@@ -27,3 +30,7 @@ error = None
             error = 'Invalid username/password'
     # the code below is executed if the request method
     # was GET or the credentials were invalid
+
+
+GET means the browser wants us to send information
+POST means the browser wants us to save the information
