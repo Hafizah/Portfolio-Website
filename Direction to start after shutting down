@@ -1,0 +1,28 @@
+How to start after shutting down:
+
+1. Open Sublime text app. Click file and open web server folder.
+
+2. Open terminal:
+  (base) hafizah@Hafizahs-iMac ~ % cd Desktop
+  (base) hafizah@Hafizahs-iMac Desktop % . web\ server/bin/activate
+  (web server) (base) hafizah@Hafizahs-iMac Desktop % cd web\ server
+  (web server) (base) hafizah@Hafizahs-iMac web server % export FLASK_ENV=development
+  (web server) (base) hafizah@Hafizahs-iMac web server % export FLASK_APP=server.py
+  (web server) (base) hafizah@Hafizahs-iMac web server %  python3 -m flask run
+  * Serving Flask app "server.py" (lazy loading)
+  * Environment: development
+  * Debug mode: on
+  server
+  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+  * Restarting with stat
+  server
+  * Debugger is active!
+  * Debugger PIN: 241-380-545
+  
+3. Copy http://127.0.0.1:5000/ on browser and see website.
+
+4. After finish, stop server : (Press CTRL+C to quit)
+
+5. Before closing terminal : type "deactivate" then "exit"
+
+
