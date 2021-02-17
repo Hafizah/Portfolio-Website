@@ -12,3 +12,26 @@ export FLASK_APP=server.py
 python -m flask run
 
 Should show some sort of astraunaut website.
+
+---------------------------------------------------------------------------------------------
+Make sure to repeat above to all the pages
+
+
+@app.route('/works.html')
+def works():
+    return render_template('works.html')
+
+@app.route('/contact.html')
+def contact():
+    return render_template('contact.html')
+
+
+@app.route('/work.html')
+def work():
+    return render_template('work.html')
+    
+Above can be replace with....
+
+@app.route('/<string:page_name>')
+def html_page(page_name):
+    return render_template(page_name)
