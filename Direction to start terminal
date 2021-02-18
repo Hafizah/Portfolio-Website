@@ -1,7 +1,16 @@
+Create new folder on desktop - my_website
+Inside new folder, create static and templates folders
+create server.py file
+Using downloaded template - store index.html in templates and .css, .js, assets, .ico, images in static
+Make sure to check all path in index.html are correctly change by adding static in the path
+
 cd Desktop
 python -m venv my_website
 . my_website/bin/activate
 pip install Flask
 pip install --upgrade pip
+cd my_website
 export FLASK_ENV=development
 export FLASK_APP=server.py
+python -m flask run
+
