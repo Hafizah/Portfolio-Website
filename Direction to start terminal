@@ -1,0 +1,5 @@
+cd Desktop
+python -m venv my_website
+. my_website/bin/activate
+export FLASK_ENV=development
+export FLASK_APP=server.py
