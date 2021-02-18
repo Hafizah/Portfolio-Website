@@ -1,5 +1,7 @@
 cd Desktop
 python -m venv my_website
 . my_website/bin/activate
+pip install Flask
+pip install --upgrade pip
 export FLASK_ENV=development
 export FLASK_APP=server.py
